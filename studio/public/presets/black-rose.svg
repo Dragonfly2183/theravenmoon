@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.45" r="0.75"><stop offset="0" stop-color="#3b0f1c"/><stop offset="0.6" stop-color="#16070d"/><stop offset="1" stop-color="#060305"/></radialGradient>
+    <radialGradient id="flame" cx="0.5" cy="0.7" r="0.6"><stop offset="0" stop-color="#fff7d6"/><stop offset="0.5" stop-color="#f3b24a"/><stop offset="1" stop-color="#c2410c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f3b24a" stop-opacity="0.35"/><stop offset="1" stop-color="#f3b24a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="wax" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1a1418"/><stop offset="0.45" stop-color="#3a3036"/><stop offset="1" stop-color="#0f0b0d"/></linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a1a28"/><stop offset="1" stop-color="#12060a"/></linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <circle cx="150" cy="210" r="150" fill="url(#glow)"/>
+  <circle cx="460" cy="260" r="120" fill="url(#glow)"/>
+  <rect x="112" y="250" width="76" height="400" rx="6" fill="url(#wax)"/>
+  <path d="M112 262 C 118 300 124 300 126 330 C 128 350 136 350 138 320 L 140 262 Z M 160 262 C 164 290 170 296 172 280 L 176 262 Z" fill="#2c2328"/>
+  <path d="M150 250 L 150 226" stroke="#0a0a0a" stroke-width="3"/>
+  <path d="M150 150 C 170 190 172 214 150 230 C 128 214 130 190 150 150 Z" fill="url(#flame)"/>
+  <rect x="432" y="310" width="60" height="340" rx="5" fill="url(#wax)"/>
+  <path d="M462 310 L 462 290" stroke="#0a0a0a" stroke-width="3"/>
+  <path d="M462 222 C 478 254 480 272 462 294 C 444 272 446 254 462 222 Z" fill="url(#flame)"/>
+  <path d="M300 760 C 296 660 300 580 312 500" stroke="#1a2a1a" stroke-width="7" fill="none"/>
+  <path d="M304 640 C 270 620 250 596 246 570 C 276 580 296 604 304 640 Z" fill="#162416"/>
+  <path d="M306 590 C 340 574 360 552 364 526 C 334 536 314 560 306 590 Z" fill="#162416"/>
+  <g transform="translate(314 430)">
+    <path d="M-92 10 C -100 -50 -50 -92 0 -92 C 50 -92 100 -50 92 10 C 84 64 40 88 0 88 C -40 88 -84 64 -92 10 Z" fill="url(#petal)"/>
+    <path d="M-70 0 C -64 -48 -24 -70 12 -64 C 48 -58 72 -26 64 14 C 56 50 24 66 -6 64 C -40 62 -74 40 -70 0 Z" fill="#2a0c16"/>
+    <path d="M-44 4 C -40 -30 -10 -46 16 -40 C 42 -34 52 -8 44 18 C 36 40 10 48 -12 44 C -34 40 -48 26 -44 4 Z" fill="#3d1220"/>
+    <path d="M-20 4 C -18 -14 0 -24 14 -20 C 28 -16 30 0 24 12 C 18 24 2 26 -8 22 C -18 18 -22 12 -20 4 Z" fill="#150509"/>
+    <path d="M-70 0 C -40 20 20 24 64 14 M -44 4 C -20 18 20 20 44 18" stroke="#5c2233" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+  <rect y="650" width="600" height="150" fill="#070405"/>
+  <path d="M0 650 L 600 650" stroke="#b8975a" stroke-width="1.5" opacity="0.6"/>
+</svg>
